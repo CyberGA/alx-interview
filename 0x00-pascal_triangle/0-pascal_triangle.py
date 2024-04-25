@@ -1,12 +1,15 @@
 #!/usr/bin/python3
 """
-Pascal Triangle module
+Pascal Triangle DSA module
 """
 
 
 def pascal_triangle(n):
+    """returns a list of lists of numbers
+    representing the pascal triangle"""
     if n <= 0:
-        return []
+        return ([])
+
     res = [[1]]
     for i in range(n - 1):
         temp = [0] + res[-1] + [0]
