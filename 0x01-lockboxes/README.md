@@ -1,10 +1,7 @@
 0x01. Lockboxes
 ===============
 
-AlgorithmPython
 
--   By Carrie Ybay, Software Engineer at Holberton School
--   Weight: 1
 
 Requirements
 ------------
