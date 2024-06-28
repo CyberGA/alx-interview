@@ -3,6 +3,7 @@
 Island Perimeter
 """
 
+
 def island_perimeter(grid):
     """
     Returns the perimeter of the island described in grid.
@@ -16,6 +17,5 @@ def island_perimeter(grid):
         # Compare each cell with its next neighbor (including boundary with 0)
         for i1, i2 in zip([0] + row, row + [0]):
             if i1 != i2:
-                perimeter += 1
-
+                perimeter += int(i1 != i2)
     return perimeter
